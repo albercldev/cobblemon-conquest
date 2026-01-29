@@ -30,8 +30,22 @@ services:
       CFG_MOTD: Cobblemon Conquest Proxy
       REPLACE_ENV_VARIABLES: "true"
       PLUGINS_FILE: /config/plugins.txt
+      DB_PASSWORD: ${DB_PASSWORD}
     ports:
       - "25577:25565"
     volumes:
       - ./proxy:/config
       - ./data/proxy:/server
+
+  database:
+    image: postgres:18.1
+    container_name: cobblemon-conquest-database
+    pull_policy: daily
+    environment:
+      POSTGRES_DB: cobblemon_conquest
+      POSTGRES_USER: admin
+      POSTGRES_PASSWORD: cobblemonpassword
+    volumes:
+      - ./data/database:/var/lib/postgresql
+    ports:
+      - "5432:5432"
