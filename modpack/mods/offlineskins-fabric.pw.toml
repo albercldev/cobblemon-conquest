@@ -3,8 +3,8 @@ filename = "offlineskins-1.21.1-v1a-fabric.jar"
 side = "client"
 
 [download]
-hash-format = "sha1"
-hash = "1d391984a2a87f872beaccd5a80774b845efc386"
+hash-format = "sha512"
+hash = "8c3d738f77f353a62187315320c45172e2e23eca9fabb127063f1d3a021bbe42197d99bab2fd58ebbdc90532ef11df86a5ad1d65f5e02e2f0bdef7413d6b3625"
 mode = "metadata:curseforge"
 
 [update]

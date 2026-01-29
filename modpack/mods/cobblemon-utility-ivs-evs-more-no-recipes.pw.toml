@@ -3,8 +3,8 @@ filename = "Cobblemon-Utility+-fabric-1.7.1-NORECIPES - Copy.jar"
 side = "both"
 
 [download]
-hash-format = "sha1"
-hash = "d46e122877685eadfef647b38231d95a0bf4c202"
+hash-format = "sha512"
+hash = "f0fd17c97fb60670655b867072bf41ec5d81c2fe1015d5bce3639da8f78a30b2ddc392523050ddb267755025d07a7098230231ef48f9a2eee3e371aefd9a19d2"
 mode = "metadata:curseforge"
 
 [update]

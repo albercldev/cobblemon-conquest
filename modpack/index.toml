@@ -22,7 +22,7 @@ metafile = true
 
 [[files]]
 file = "mods/athena-ctm.pw.toml"
-hash = "5601649308a7d9f1658a942bbd48d3bd899a81fabd4ea1296952b48474d1ee1d"
+hash = "93f989575eec26f333d4253f1af961983ba4d5179e1c3237b643836b40614a43"
 metafile = true
 
 [[files]]
@@ -137,7 +137,7 @@ metafile = true
 
 [[files]]
 file = "mods/cobblemon-utility-ivs-evs-more-no-recipes.pw.toml"
-hash = "355587cb3818b8faf80b893c98c1893e5520df337496e09e6111bc581c5161a6"
+hash = "438e8682039732eb0cc14bd584680f19da2013929b1e24d9108d5f7c72dbe4ec"
 metafile = true
 
 [[files]]
@@ -168,6 +168,11 @@ metafile = true
 [[files]]
 file = "mods/cobbreeding.pw.toml"
 hash = "04c247ff830d3df40c658262eff0e40a3e7b5f64ca0c8a5e5cbce34da352bf37"
+metafile = true
+
+[[files]]
+file = "mods/crossstitch.pw.toml"
+hash = "899a506ec93d9bbc84e58aebeb369847493f97a4383e6691a5d51dbb9c2f6ea2"
 metafile = true
 
 [[files]]
@@ -252,12 +257,7 @@ metafile = true
 
 [[files]]
 file = "mods/offlineskins-fabric.pw.toml"
-hash = "8b97f0a775f37f1ad6ddd93e7ec45d80e05f72690e389eff12f4c0ea3cfbdf44"
-metafile = true
-
-[[files]]
-file = "mods/offlineskins.pw.toml"
-hash = "ca0acfa0a1cec1c7b5781fd68ce03c7c11727846dddd017e430c598ed9ba2798"
+hash = "2740c09e403f00c225884d6a4de97e717408f0de1b432e66f80fb6fb5e93cd98"
 metafile = true
 
 [[files]]
