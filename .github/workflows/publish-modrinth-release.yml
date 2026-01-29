@@ -16,17 +16,10 @@ jobs:
       - name: Checkout
         uses: actions/checkout@v4
 
-      - name: Download packwiz
-        working-directory: modpack
-        run: |
-          curl -L https://github.com/packwiz/packwiz/actions/runs/19636137443/artifacts/4660760434 -o packwiz.zip
-          unzip packwiz.zip -d .
-          chmod +x packwiz
-
       - name: Export modpack
         working-directory: modpack
         run: |
-          ./packwiz mr export
+          ../bin/packwiz mr export
 
       - name: Read version from pack.toml
         id: version
