@@ -1,0 +1,50 @@
+name: Build and Release Modpack
+
+on:
+  push:
+    branches:
+      - master
+
+permissions:
+  contents: write
+
+jobs:
+  release:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+
+      - name: Download packwiz
+        working-directory: modpack
+        run: |
+          curl -L https://github.com/packwiz/packwiz/releases/latest/download/packwiz-linux-amd64 -o packwiz
+          chmod +x packwiz
+
+      - name: Export modpack
+        working-directory: modpack
+        run: |
+          ./packwiz mr export
+
+      - name: Read version from pack.toml
+        id: version
+        working-directory: modpack
+        run: |
+          VERSION=$(grep -E '^version\s*=' pack.toml | sed -E 's/version\s*=\s*"([^"]+)"/\1/')
+          echo "version=$VERSION" >> $GITHUB_OUTPUT
+
+      - name: Get generated mrpack
+        id: mrpack
+        working-directory: modpack
+        run: |
+          FILE=$(ls *.mrpack | head -n 1)
+          echo "file=$FILE" >> $GITHUB_OUTPUT
+
+      - name: Create Release
+        uses: softprops/action-gh-release@v1
+        with:
+          tag_name: v${{ steps.version.outputs.version }}
+          name: v${{ steps.version.outputs.version }}
+          files: modpack/${{ steps.mrpack.outputs.file }}
+          generate_release_notes: true
