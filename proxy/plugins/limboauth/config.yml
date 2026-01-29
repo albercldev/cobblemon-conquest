@@ -320,10 +320,10 @@ main:
 # Database settings
 database:
   # Database type: mariadb, mysql, postgresql, sqlite or h2.
-  storage-type: H2
+  storage-type: POSTGRESQL
   # Settings for Network-based database (like MySQL, PostgreSQL): 
-  hostname: "127.0.0.1:3306"
-  user: "user"
-  password: "password"
-  database: "limboauth"
-  connection-parameters: "?autoReconnect=true&initialTimeout=1&useSSL=false"
+  hostname: "database"
+  user: "admin"
+  password: "cobblemonpassword"
+  database: "cobblemon_conquest"
+  connection-parameters: "?useSSL=false&serverTimezone=UTC"
