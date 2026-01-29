@@ -4,6 +4,8 @@ on:
   push:
     branches:
       - main
+    paths:
+      - 'modpack/**'
 
 permissions:
   contents: write
