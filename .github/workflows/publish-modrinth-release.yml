@@ -19,7 +19,8 @@ jobs:
       - name: Download packwiz
         working-directory: modpack
         run: |
-          curl -L https://github.com/packwiz/packwiz/releases/latest/download/packwiz-linux-amd64 -o packwiz
+          curl -L https://github.com/packwiz/packwiz/actions/runs/19636137443/artifacts/4660760434 -o packwiz.zip
+          unzip packwiz.zip -d .
           chmod +x packwiz
 
       - name: Export modpack
