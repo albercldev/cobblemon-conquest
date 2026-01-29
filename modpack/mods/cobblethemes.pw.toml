@@ -1,0 +1,13 @@
+name = "CobbleThemes"
+filename = "CobbleThemes-0.9.3-beta.jar"
+side = "client"
+
+[download]
+url = "https://cdn.modrinth.com/data/PAO12Ixe/versions/SXynBpzy/CobbleThemes-0.9.3-beta.jar"
+hash-format = "sha512"
+hash = "8fbe77e17a6fab4210d5a502151237084e793d3b09a8b04bfd087c4ccf33bc84a1720a875eb21fc4f6d07de6145f82eb5ea5afda34f3d7fb1c564e52ed946c94"
+
+[update]
+[update.modrinth]
+mod-id = "PAO12Ixe"
+version = "SXynBpzy"

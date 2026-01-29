@@ -1,0 +1,33 @@
+services:
+  main-server:
+    image: itzg/minecraft-server:latest
+    container_name: cobblemon-conquest-main-server
+    pull_policy: daily
+    tty: true
+    stdin_open: true
+    ports:
+      - "25566:25565"
+    environment:
+      EULA: "TRUE"
+      ONLINE_MODE: "FALSE"
+      MOTD: "Cobblemon Conquest Main Server"
+    volumes:
+      - ./data/main-server:/data
+  
+  proxy:
+    image: itzg/mc-proxy:latest
+    container_name: cobblemon-conquest-proxy
+    pull_policy: daily
+    tty: true
+    stdin_open: true
+    environment:
+      TYPE: VELOCITY
+      BUNGEE_JAR_REVISION: "1"
+      CFG_MOTD: Cobblemon Conquest Proxy
+      REPLACE_ENV_VARIABLES: "true"
+      PLUGINS_FILE: /config/plugins.txt
+    ports:
+      - "25577:25565"
+    volumes:
+      - ./proxy:/config
+      - ./data/proxy:/server

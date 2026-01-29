@@ -1,0 +1,13 @@
+name = "Cobblemon: CobbleStats"
+filename = "cobblestats-fabric-1.8+1.21.1.jar"
+side = "both"
+
+[download]
+url = "https://cdn.modrinth.com/data/jlXFcQk4/versions/RXTZDeTb/cobblestats-fabric-1.8%2B1.21.1.jar"
+hash-format = "sha512"
+hash = "7bf297ebb616c1ac9173957611f4953cc4df549c7309ca97cc196d37e2b14f6369b4bc5681f3a4baeaf1966e4c55539dd80290824f204a84e0829895a976d702"
+
+[update]
+[update.modrinth]
+mod-id = "jlXFcQk4"
+version = "RXTZDeTb"

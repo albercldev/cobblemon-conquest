@@ -1,0 +1,13 @@
+name = "Flan"
+filename = "flan-1.21.1-1.12.5-fabric.jar"
+side = "server"
+
+[download]
+url = "https://cdn.modrinth.com/data/Si383TIH/versions/b5UMLaHO/flan-1.21.1-1.12.5-fabric.jar"
+hash-format = "sha512"
+hash = "21eeae558346172f02c4569c39e73713305e637555f163cf875f3cb84ee4688cb0a2d92cc9c767c96c70405f7b788911bc55f42f44eedae57f84b04d16129052"
+
+[update]
+[update.modrinth]
+mod-id = "Si383TIH"
+version = "b5UMLaHO"

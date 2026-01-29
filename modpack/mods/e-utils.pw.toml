@@ -1,0 +1,13 @@
+name = "E-Utils"
+filename = "everlastingutils-1.1.5.jar"
+side = "server"
+
+[download]
+url = "https://cdn.modrinth.com/data/YG7mMy6f/versions/1fEYfvts/everlastingutils-1.1.5.jar"
+hash-format = "sha512"
+hash = "19a72b1976b6c94f81ec449a1f7c10c494dd8aab2b10f9d27135e1318603a496eb1a55dfa8ff6abef911e982c6a35ca64a1c57fbd02b5845f430155a848a9af1"
+
+[update]
+[update.modrinth]
+mod-id = "YG7mMy6f"
+version = "1fEYfvts"

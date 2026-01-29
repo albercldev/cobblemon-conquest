@@ -1,0 +1,2 @@
+https://cdn.modrinth.com/data/4iChqdl8/versions/gFiH3Z6K/limboauth-1.1.14.jar
+https://cdn.modrinth.com/data/TZOteSf2/versions/9FYSLb8w/limboapi-1.1.27-SNAPSHOT.jar

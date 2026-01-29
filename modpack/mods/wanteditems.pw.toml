@@ -1,0 +1,13 @@
+name = "WantedItems"
+filename = "wanteditems-1.1.8+1.7.2.jar"
+side = "both"
+
+[download]
+url = "https://cdn.modrinth.com/data/EfXlyDWr/versions/q28CH2mj/wanteditems-1.1.8%2B1.7.2.jar"
+hash-format = "sha512"
+hash = "adf36e011dc47062bd5549bba7bed7b82131682c3596ed438557a306ee6daffd75b21d5757bb508753dfd948fbf48709ce56535cd9abf3954e7209768bc5ca2f"
+
+[update]
+[update.modrinth]
+mod-id = "EfXlyDWr"
+version = "q28CH2mj"

@@ -1,0 +1,13 @@
+name = "Cobblemon: Legendary Monuments"
+filename = "LegendaryMonuments-7.7.1.jar"
+side = "both"
+
+[download]
+url = "https://cdn.modrinth.com/data/m6RyHSbV/versions/rNbZRQuG/LegendaryMonuments-7.7.1.jar"
+hash-format = "sha512"
+hash = "08f14184ca7bd221380a876aa92bd27408d68c528626887a6b7197e3a4efd8339e83b0ce750eaf60d4a23d6e36df8201670f7a0c8368970fa20d56bc82796329"
+
+[update]
+[update.modrinth]
+mod-id = "m6RyHSbV"
+version = "rNbZRQuG"

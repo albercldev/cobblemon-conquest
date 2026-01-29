@@ -1,0 +1,17 @@
+name = "cobblemon-conquest"
+author = "albercl"
+version = "0.0.1"
+pack-format = "packwiz:1.1.0"
+
+[index]
+file = "index.toml"
+hash-format = "sha256"
+hash = "51e1a221374a60796c0b0b91c66f25f382abd8545fa4a5961cab77222e4ba71c"
+
+[versions]
+fabric = "0.18.4"
+minecraft = "1.21.1"
+
+[options]
+acceptable-game-versions = ["1.21.1"]
+datapack-folder = "datapacks"
