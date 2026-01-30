@@ -1,0 +1,13 @@
+name = "World Manager"
+filename = "worldmanager-1.4.0+1.21.1.jar"
+side = "server"
+
+[download]
+url = "https://cdn.modrinth.com/data/vbAJDaEx/versions/QhlDK9E9/worldmanager-1.4.0%2B1.21.1.jar"
+hash-format = "sha512"
+hash = "21030b31052b0427c344cf8639b357d4b05a2f30fbe5d9b0a87a733ec859ccbc384bc583abb7e7586c126899aff0bd7e70f07c50876334525da25dd380f25530"
+
+[update]
+[update.modrinth]
+mod-id = "vbAJDaEx"
+version = "QhlDK9E9"

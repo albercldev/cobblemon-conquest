@@ -3,3 +3,5 @@ data
 
 # Environment files
 *.env
+
+*.mrpack

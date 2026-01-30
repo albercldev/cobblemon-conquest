@@ -87,7 +87,7 @@ metafile = true
 
 [[files]]
 file = "mods/cobblemon-fight-or-flight-reborn.pw.toml"
-hash = "75d1469e8b306bf5dc3ca3d8c2c9d92a68071d0fee69a421a26b54b63da3b662"
+hash = "08900688b9f825b7d49dab973df3ed6ce57b0be7f01f5543b507545b4c5a9c4c"
 metafile = true
 
 [[files]]
@@ -97,7 +97,7 @@ metafile = true
 
 [[files]]
 file = "mods/cobblemon-mega-showdown.pw.toml"
-hash = "d4ac6ef336a5b194590226452e494d52a328955d2021c41d54b2c13e406c6759"
+hash = "783871597ae3b7b47a142996640982ddedb664efba3c9384a7b2a71e603f388d"
 metafile = true
 
 [[files]]
@@ -176,18 +176,8 @@ hash = "899a506ec93d9bbc84e58aebeb369847493f97a4383e6691a5d51dbb9c2f6ea2"
 metafile = true
 
 [[files]]
-file = "mods/dataloader.pw.toml"
-hash = "7c6243cb0903bb8f900eaa0d64b2cd34d98630780065bc2d2b05e4d19fc2ce32"
-metafile = true
-
-[[files]]
 file = "mods/e-utils.pw.toml"
 hash = "0477f41e688eb95d6106b4df2c4fd433023d0b36d1ee6aed1a4e885cb2d26716"
-metafile = true
-
-[[files]]
-file = "mods/extra-move-anims-cobblemon.pw.toml"
-hash = "9c3e7688ee3b53f2bfb390611a137b25619a71fc284c608f7e45a82342d966be"
 metafile = true
 
 [[files]]
@@ -231,8 +221,18 @@ hash = "d2e4214bbe6f93f7f95f688989ee296b419b7dba10dee858abb346ae73b4cfbe"
 metafile = true
 
 [[files]]
+file = "mods/invmove.pw.toml"
+hash = "44f1fbc496fb2d54467ccbe0df5362c54542193e33b8541ad75b532e1baf775e"
+metafile = true
+
+[[files]]
 file = "mods/jade.pw.toml"
 hash = "37a45ed98e4edc9c8224cb06f72be8914fae69687601d4e15009f1cb9f27563c"
+metafile = true
+
+[[files]]
+file = "mods/jamlib.pw.toml"
+hash = "6e212e9056ddaf5dda18ff6a243c118b1cf839a8ba42b999c594f85751896a33"
 metafile = true
 
 [[files]]
@@ -246,8 +246,18 @@ hash = "88b5510e39cdc8ca356d54bc436edc777d5eafc03203a8724784183408fe6792"
 metafile = true
 
 [[files]]
+file = "mods/melius-worldmanager.pw.toml"
+hash = "576ae30cef031af7d50981bfa31c3bf780ff47beeb07d814a4679715fe06eeee"
+metafile = true
+
+[[files]]
 file = "mods/more-cobblemon-tweaks.pw.toml"
 hash = "0e4df84e63df12d09aaef8b1da4bea7c0890dcff79f530cacd78d6701c4653fe"
+metafile = true
+
+[[files]]
+file = "mods/mouse-tweaks.pw.toml"
+hash = "7fc969e77edc3b0b9946b42070fd858349a74555f0cf9648907241af8a3a2d25"
 metafile = true
 
 [[files]]
@@ -266,13 +276,18 @@ hash = "1c86eb0c48eb53d3e6aa704f7c52eb64946b488855f785ab07b0fd3112311288"
 metafile = true
 
 [[files]]
+file = "mods/polymer.pw.toml"
+hash = "1c13286be4f09e25c93ef1640335a951df1dd0f155f6d7a173dfc284831e09c3"
+metafile = true
+
+[[files]]
 file = "mods/rctapi.pw.toml"
 hash = "803ddac35339424a82a0ad8b078f9f97d5c687af18df68442aef65b700f906bc"
 metafile = true
 
 [[files]]
 file = "mods/rctmod.pw.toml"
-hash = "dab0c163d705eec43483dd778d97091a9b04b20a1e8fee298c76738d2d1b7f88"
+hash = "8a49f4c1a215d767fb6b00370fc8e294cbde06f9508f8f2196d0a8230ec544cd"
 metafile = true
 
 [[files]]
@@ -281,8 +296,18 @@ hash = "d3f633dd12cd039a4e58dd398d1c80a324b0d78b9da5b3972b69640bfed211ed"
 metafile = true
 
 [[files]]
+file = "mods/rightclickharvest.pw.toml"
+hash = "7115961dc4a355e257229fdfdcef5ce8bc1003b015cfaa18e8203fd79b34a860"
+metafile = true
+
+[[files]]
 file = "mods/serene-seasons.pw.toml"
 hash = "4739fd0f979dd5fefecc5c47a07ef61ca78d1bdf525cd4e544e1a331ede3ca61"
+metafile = true
+
+[[files]]
+file = "mods/simple-voice-chat.pw.toml"
+hash = "cc98ef15cb0fb331703af145ea92255765247a2b1d27b87d05a44ad0dc6d9b4e"
 metafile = true
 
 [[files]]
@@ -291,13 +316,23 @@ hash = "27f2a11921312246d216d0c0c021f9c2602e5a06fb17ba6f8c12ee8542d8826a"
 metafile = true
 
 [[files]]
-file = "mods/terrablender.pw.toml"
-hash = "e35593590fe988653baebae4638f6c93b5d822351274955cc1288b34fe5429fe"
+file = "mods/sophisticated-core-(unofficial-fabric-port).pw.toml"
+hash = "693fdc79c18086a2a939b45de97ca918d895d5a4247d2a0bba94bf53661bc705"
+metafile = true
+
+[[files]]
+file = "mods/sophisticated-storage-(unofficial-fabric-port).pw.toml"
+hash = "f2feec4a404ea1ebff1cbc8ef801d074fc8c4a528af064fd9c125f5c9e57c824"
 metafile = true
 
 [[files]]
 file = "mods/trinkets.pw.toml"
 hash = "860812150cb54f0d9ee1bce7b72798b6cc5f752bb05709f0c60231d054ec281d"
+metafile = true
+
+[[files]]
+file = "mods/universal-graves.pw.toml"
+hash = "695176ca996e639044d0d526cd6c56a95c9897e85e7a8119a2d14a712f755733"
 metafile = true
 
 [[files]]
@@ -308,6 +343,11 @@ metafile = true
 [[files]]
 file = "mods/waystones.pw.toml"
 hash = "d9b210470eeaca6109002dcc8c1442dbbef5468bbf7be516651e7fc25b3d5c5e"
+metafile = true
+
+[[files]]
+file = "mods/worldedit.pw.toml"
+hash = "08d4775f8546564ad812b09062633ffc48f44b76328efe3832c021651af86b14"
 metafile = true
 
 [[files]]
