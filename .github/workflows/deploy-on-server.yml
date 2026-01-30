@@ -11,6 +11,7 @@ jobs:
   deploy:
     if: github.event.inputs.confirm == 'DEPLOY'
     runs-on: ubuntu-latest
+    environment: PROD
 
     steps:
     - name: Checkout
@@ -36,11 +37,12 @@ jobs:
 
     - name: Deploy services
       run: |
-        ssh github@${{ secrets.DEPLOY_HOST }} << 'EOF'
+        ssh ${{ secrets.SSH_USER }}@${{ secrets.DEPLOY_HOST }} << 'EOF'
           set -e
           cd /var/docker/cobblemon-conquest
-          git pull
-          docker compose up -d main-server proxy database
+          git pull origin main
+          docker compose down main-server proxy
+          docker compose up -d main-server proxy
         EOF
 
     - name: Cleanup
