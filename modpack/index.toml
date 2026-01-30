@@ -322,7 +322,7 @@ metafile = true
 
 [[files]]
 file = "overrides/servers.dat"
-hash = "0c3127fe247973956258489cf144c527e0d33430f75399ce049636122f4b80ad"
+hash = "68049a307efa27a19765bfeb47ed0b8629ba180e9fe0b02f390be5a373af39aa"
 
 [[files]]
 file = "resourcepacks/xaeroscobblemon.pw.toml"
