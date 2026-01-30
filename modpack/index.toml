@@ -241,11 +241,6 @@ hash = "76a2560989102413693bbfbea83570287b3dce4f6ed40dc69aacbd3268633fe7"
 metafile = true
 
 [[files]]
-file = "mods/legendary-monuments.pw.toml"
-hash = "74c8eff0493831b0d0d1d674fe738be0feda809c500db96d159ce35ec6821245"
-metafile = true
-
-[[files]]
 file = "mods/luckperms.pw.toml"
 hash = "88b5510e39cdc8ca356d54bc436edc777d5eafc03203a8724784183408fe6792"
 metafile = true
