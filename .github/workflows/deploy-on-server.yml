@@ -11,6 +11,7 @@ jobs:
   deploy:
     if: github.event.inputs.confirm == 'DEPLOY'
     runs-on: ubuntu-latest
+    environment: PROD
 
     steps:
     - name: Checkout
