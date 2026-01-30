@@ -40,7 +40,7 @@ jobs:
         ssh github@${{ secrets.DEPLOY_HOST }} << 'EOF'
           set -e
           cd /var/docker/cobblemon-conquest
-          git pull
+          git pull origin-public main
           docker compose down main-server proxy
           docker compose up -d main-server proxy
         EOF
