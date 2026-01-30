@@ -15,8 +15,25 @@ services:
       FABRIC_LAUNCHER_VERSION: 1.1.1
       FABRIC_LOADER_VERSION: 0.18.4
 
-      INIT_MEMORY: 2G
+      DIFFICULTY: easy
+
+      SPAWN_ANIMALS: "false"
+      SPAWN_MONSTERS: "false"
+      SPAWN_PROTECTION: 0
+      SPAWN_NPCS: "true"
+    
+      VIEW_DISTANCE: 10
+      SIMULATION_DISTANCE: 6
+      MAX_PLAYERS: 50
+
+      ENABLE_COMMAND_BLOCK: "true"
+
+      INIT_MEMORY: 4G
       MAX_MEMORY: 12G
+    
+    ports:
+      - "24454:24454/udp"
+    
     volumes:
       - ./data/main-server:/data
       - ./modpack:/modpack:ro
