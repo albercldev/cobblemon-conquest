@@ -262,7 +262,7 @@ metafile = true
 
 [[files]]
 file = "mods/multiworld.pw.toml"
-hash = "9cdb9afcd62b26e5645794f9bca080f00850ca68ed48226cb7cc1a944da7169e"
+hash = "4d60813e8db9261205387f5c8cb96d0b372d3bbe78159369abbddab24f4b8788"
 metafile = true
 
 [[files]]
