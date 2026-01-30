@@ -41,7 +41,8 @@ jobs:
           set -e
           cd /var/docker/cobblemon-conquest
           git pull
-          docker compose up -d main-server proxy database
+          docker compose down main-server proxy
+          docker compose up -d main-server proxy
         EOF
 
     - name: Cleanup
