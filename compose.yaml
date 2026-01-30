@@ -49,3 +49,24 @@ services:
       - ./data/database:/var/lib/postgresql
     ports:
       - "5432:5432"
+
+  backup:
+    image: cobblemon-bw-backup:latest
+    restart: on-failure
+    build: 
+      context: ./backup
+    depends_on:
+      - main-server
+    environment:
+      RCON_HOST: main-server:25575
+      RCON_PORT: 25575
+      RCON_PASSWORD: "${RCON_PASSWORD:-minecraft}"
+
+      SSH_USER: albercl
+      SSH_HOST: nas.albercl.dev
+      SSH_PATH: ~/backups/cobblemon-conquest
+
+    volumes:
+      - ./data/main-server:/data:ro
+      - ~/.ssh/id_ed25519:/root/.ssh/id:ro
+

@@ -1,2 +1,5 @@
 # Data folders (db, server, etc.)
 data
+
+# Environment files
+*.env
