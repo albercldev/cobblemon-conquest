@@ -22,7 +22,7 @@ export default defineConfig({
 			},
 			social: [
 				{ icon: 'github', label: 'GitHub', href: 'https://github.com/albercl/cobblemon-conquest' },
-				{ icon: 'discord', label: 'Discord', href: 'https://discord.gg/uVW6VyRRXT' },
+				{ icon: 'discord', label: 'Discord', href: 'https://discord.gg/vWkjZPYGpK' },
 			
 			],
 			sidebar: [

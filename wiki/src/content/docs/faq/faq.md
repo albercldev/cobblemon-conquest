@@ -3,7 +3,7 @@ title: Preguntas frecuentes
 description: Respuestas a las preguntas más comunes sobre Cobblemon Conquest y el modpack.
 ---
 
-En esta sección encontrarás respuestas a las preguntas más frecuentes sobre Cobblemon Conquest y el modpack. Si no encuentras la respuesta que buscas, no dudes en unirte a nuestro [Discord](https://discord.gg/uVW6VyRRXT) y preguntar en el canal de soporte.
+En esta sección encontrarás respuestas a las preguntas más frecuentes sobre Cobblemon Conquest y el modpack. Si no encuentras la respuesta que buscas, no dudes en unirte a nuestro [Discord](https://discord.gg/vWkjZPYGpK) y preguntar en el canal de soporte.
 
 ## ¿Cómo instalar el modpack?
 
