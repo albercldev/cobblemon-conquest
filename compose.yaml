@@ -38,6 +38,10 @@ services:
       - ./data/main-server:/data
       - ./modpack:/modpack:ro
   
+  limbo:
+    image: ghcr.io/quozul/picolimbo:latest
+    container_name: cobblemon-conquest-limbo
+
   proxy:
     image: itzg/mc-proxy:latest
     container_name: cobblemon-conquest-proxy

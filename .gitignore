@@ -1,7 +1,7 @@
 # Data folders (db, server, etc.)
 data
 
-# Environment files
-*.env
-
 *.mrpack
+
+.DS_Store
+.vscode/
