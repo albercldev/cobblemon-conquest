@@ -1,8 +1,76 @@
 hash-format = "sha256"
 
 [[files]]
+file = "config/xaero/lib/client.cfg"
+hash = "43ed9dbfa5b4d6f0f3d2e8c2ced17ad298164b22c68ff11d415257a39b074336"
+
+[[files]]
+file = "config/xaero/lib/common.cfg"
+hash = "98f698d96a6d21d830a455b4ad045b70516fa63c298021742d8499e7f0366cd2"
+
+[[files]]
+file = "config/xaero/lib/profiles/default.cfg"
+hash = "34ae854b17d896d7cb853bdc28c27231a3947e91cb9f0991f372846ee3c2a907"
+
+[[files]]
+file = "config/xaero/lib/server_profiles/default.cfg"
+hash = "d438aea41ca41e93697e059f523686935c0add482f6abe96b532bbf10c6ed80a"
+
+[[files]]
+file = "config/xaero/minimap/client.cfg"
+hash = "c0915eff5d1a7905cd1038d646eb9086fd1a29e2f637d53535e4da161de17b9f"
+
+[[files]]
+file = "config/xaero/minimap/common.cfg"
+hash = "2b49df024c03a369c62a303c72755e7fedeb4f4653ff53a12fd37bd83ccd4ed0"
+
+[[files]]
+file = "config/xaero/minimap/default_radar_categories_client.json"
+hash = "94fc0e69a1754ef80c54e1f3c9193526c620b0ac646f94a4a0f560bcc58826a8"
+
+[[files]]
+file = "config/xaero/minimap/default_radar_categories_server.json"
+hash = "a4c652cafa7dea324e5f5cf3b1df46a84e54b6d4f877195857bce55a559c1cfd"
+
+[[files]]
+file = "config/xaero/minimap/profiles/default.cfg"
+hash = "22dd7f25bd75f24f54080249a7ecb52668fa62af4733a788d2ec747c7474a9d0"
+
+[[files]]
+file = "config/xaero/minimap/profiles/entity_radar_categories/default.cfg.json"
+hash = "f87e464a04026f7a02c54a48dd0aed077b7a25d9c25bb8b19061418b48b91ef7"
+
+[[files]]
+file = "config/xaero/minimap/profiles/info_display_config/default.cfg.txt"
+hash = "184e654fa1fc8ad09943c97c4e65ab78acb5b3cfca22417a831513d1b6d9bbc6"
+
+[[files]]
+file = "config/xaero/minimap/server_profiles/default.cfg"
+hash = "d438aea41ca41e93697e059f523686935c0add482f6abe96b532bbf10c6ed80a"
+
+[[files]]
+file = "config/xaero/world-map/client.cfg"
+hash = "deece0fe0d29f2203a9699143a6209c451e91d7ecb799489c328b0d0fa31a90d"
+
+[[files]]
+file = "config/xaero/world-map/common.cfg"
+hash = "0c229eb0daf85bd09af51f21eeeb99497a3bd50a825d5ab1ca695fb21bf6cf9d"
+
+[[files]]
+file = "config/xaero/world-map/profiles/default.cfg"
+hash = "7b24c882801bcc7f0a8aedc625d419f661fa490fa0e9d5ebe39599a1ce2dcbd5"
+
+[[files]]
+file = "config/xaero/world-map/server_profiles/default.cfg"
+hash = "d438aea41ca41e93697e059f523686935c0add482f6abe96b532bbf10c6ed80a"
+
+[[files]]
+file = "config/xaerohud.txt"
+hash = "8d13c5f398016036aa4fdefb366ef3926d89f96ca104155bc9f6e5a7ec682ecd"
+
+[[files]]
 file = "datapacks/allthemons-x-mega-showdown-legacy.pw.toml"
-hash = "c614e012d1d194c1a960e57a94d825872e14c1db65e7ff2d7342562849098d35"
+hash = "51fea1636163524f0155d05a3d5e2bacb0ba7e6d500de4f8d084daa09e17f410"
 metafile = true
 
 [[files]]
@@ -366,10 +434,19 @@ hash = "80d14aa6af38caa8f61f2bd1e98744f6aeda9c0701684ed80422ded03ebab640"
 metafile = true
 
 [[files]]
-file = "overrides/servers.dat"
-hash = "68049a307efa27a19765bfeb47ed0b8629ba180e9fe0b02f390be5a373af39aa"
+file = "options.txt"
+hash = "7503d00ec81285c4529e258982f8f6248b9caadef109cfb7931a08f1da6c95c6"
+
+[[files]]
+file = "resourcepacks/allthemons-x-mega-showdown-legacy.pw.toml"
+hash = "694074175ac1f279e308d0dd927940c454fcd2aaf7fd92fa7eb24ac3475e7a8b"
+metafile = true
 
 [[files]]
 file = "resourcepacks/xaeroscobblemon.pw.toml"
 hash = "8d00514cbd63c8a83fe13119bf36776e30a195de5c47205ea664e57ce1351110"
 metafile = true
+
+[[files]]
+file = "servers.dat"
+hash = "68049a307efa27a19765bfeb47ed0b8629ba180e9fe0b02f390be5a373af39aa"

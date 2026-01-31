@@ -22,6 +22,7 @@ jobs:
         working-directory: modpack
         run: |
           ../bin/packwiz mr export
+          mv *.mrpack cobblemon-conquest.mrpack
 
       - name: Read version from pack.toml
         id: version
