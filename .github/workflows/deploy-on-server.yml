@@ -41,7 +41,8 @@ jobs:
           set -e
           cd /var/docker/cobblemon-conquest
           git pull origin main
-          docker compose down main-server proxy limbo
+          docker compose down main-server proxy limbo database
+          docker compose up --wait-timeout 20 database
           docker compose up --wait-timeout 120 main-server proxy limbo
         EOF
 
