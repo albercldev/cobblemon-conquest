@@ -1,6 +1,6 @@
 name = "AllTheMons x Mega Showdown"
 filename = "ATM x MSD [3.2.1].zip"
-side = "server"
+side = "client"
 
 [download]
 url = "https://cdn.modrinth.com/data/odZZdRCE/versions/N10nVTzj/ATM%20x%20MSD%20%5B3.2.1%5D.zip"
