@@ -1,6 +1,10 @@
 hash-format = "sha256"
 
 [[files]]
+file = "config/spawn_notification.json"
+hash = "34ce09b974f3b5906e558056e6cfd8eff339f888c529e7883d17326b76f7e31e"
+
+[[files]]
 file = "config/timeoutout.json"
 hash = "8e4c10a202578f86f648649f1b9baca28eebf5a15316253867e3b27a9d7a61c3"
 
@@ -199,7 +203,7 @@ metafile = true
 
 [[files]]
 file = "mods/cobblemon-spawn-notification.pw.toml"
-hash = "11143439e6fa7b39cb1228272cce2655508707cd5320e5089493d73109e64ad4"
+hash = "9825bda1cb342c0e56d6444876a5f363dd2c040c8e6a1854caa703f67d842334"
 metafile = true
 
 [[files]]
