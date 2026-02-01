@@ -1,5 +1,5 @@
 #!/bin/sh
 
 cd /var/docker/cobblemon-conquest
-docker compose up --no-start backup
+docker compose up --no-start --build backup
 docker compose start backup
