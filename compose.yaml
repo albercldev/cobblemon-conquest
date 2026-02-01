@@ -37,6 +37,10 @@ services:
     volumes:
       - ./data/main-server:/data
       - ./modpack:/modpack:ro
+
+    depends_on:
+      database:
+        condition: service_healthy
   
   limbo:
     image: ghcr.io/quozul/picolimbo:latest
@@ -54,12 +58,18 @@ services:
       CFG_MOTD: Cobblemon Conquest Proxy
       REPLACE_ENV_VARIABLES: "true"
       PLUGINS_FILE: /config/plugins.txt
-      DB_PASSWORD: ${DB_PASSWORD}
     ports:
       - "25577:25565"
     volumes:
       - ./proxy:/config
       - ./data/proxy:/server
+    depends_on:
+      database:
+        condition: service_healthy
+      main-server:
+        condition: service_healthy
+      limbo:
+        condition: service_started
 
   database:
     image: postgres:18.1
@@ -85,7 +95,9 @@ services:
     build: 
       context: ./backup
     depends_on:
-      - main-server
+      main-server:
+        condition: service_healthy
+
     environment:
       RCON_HOST: main-server:25575
       RCON_PORT: 25575
