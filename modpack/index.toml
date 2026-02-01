@@ -1,8 +1,28 @@
 hash-format = "sha256"
 
 [[files]]
+file = "config/EssentialCommands.properties"
+hash = "5eb6c6ea5082278b578548cfc19bec62fcda4b42f312d20c27e36a2f092979c5"
+
+[[files]]
+file = "config/luckperms/luckperms.conf"
+hash = "ca323a0d675f14af526db77de85461428c984823f80aeefe30be1a97766659c4"
+
+[[files]]
 file = "config/spawn_notification.json"
 hash = "34ce09b974f3b5906e558056e6cfd8eff339f888c529e7883d17326b76f7e31e"
+
+[[files]]
+file = "config/styled-chat.json"
+hash = "39ff822b24d4b81ed5ea9f0145f73500cdb135c25d87091623b8c3e59f88688b"
+
+[[files]]
+file = "config/styledplayerlist/config.json"
+hash = "a3b66a6e204a0bed403a978b566de49d17968b7269d547b22680a8b44a7fe35b"
+
+[[files]]
+file = "config/styledplayerlist/styles/default.json"
+hash = "138a2e61d6d84697df0f0a45f0eefe8556ebc0d5417cb4bb4524036a7df3f817"
 
 [[files]]
 file = "config/timeoutout.json"
@@ -332,6 +352,11 @@ hash = "76a2560989102413693bbfbea83570287b3dce4f6ed40dc69aacbd3268633fe7"
 metafile = true
 
 [[files]]
+file = "mods/luckperms-fabric-placeholders.pw.toml"
+hash = "b84a80c04bff01a423b26a2fcbe6cc1efbdf3d789831a37c20df2bd56f61dd92"
+metafile = true
+
+[[files]]
 file = "mods/luckperms.pw.toml"
 hash = "88b5510e39cdc8ca356d54bc436edc777d5eafc03203a8724784183408fe6792"
 metafile = true
@@ -359,6 +384,11 @@ metafile = true
 [[files]]
 file = "mods/patchouli.pw.toml"
 hash = "1c86eb0c48eb53d3e6aa704f7c52eb64946b488855f785ab07b0fd3112311288"
+metafile = true
+
+[[files]]
+file = "mods/placeholder-api.pw.toml"
+hash = "bf0551888bcfaa93ecde7d2b3dc0ef8238e9bdec9285246c81a206c0a529b735"
 metafile = true
 
 [[files]]
@@ -414,6 +444,16 @@ metafile = true
 [[files]]
 file = "mods/sophisticated-storage-(unofficial-fabric-port).pw.toml"
 hash = "f2feec4a404ea1ebff1cbc8ef801d074fc8c4a528af064fd9c125f5c9e57c824"
+metafile = true
+
+[[files]]
+file = "mods/styled-chat.pw.toml"
+hash = "81b8a1d186cc1685641bef736eadd143fa48909bd50cd7c975ec0d971a25e3ba"
+metafile = true
+
+[[files]]
+file = "mods/styledplayerlist.pw.toml"
+hash = "cbd24cdc5e83c7f687d56ed15b79f0e4ea890d9e825f747357e22831f67f4f0f"
 metafile = true
 
 [[files]]

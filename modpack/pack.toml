@@ -1,12 +1,12 @@
 name = "cobblemon-conquest"
 author = "albercl"
-version = "0.0.7-RC1"
+version = "0.0.7-RC2"
 pack-format = "packwiz:1.1.0"
 
 [index]
 file = "index.toml"
 hash-format = "sha256"
-hash = "a2e9a6901855ad2c7f0b1762f463ac37d1bf06f13f3f6994da270dc39d1c4acb"
+hash = "5ff90edc3ba4e5af6ea316ed53a804739b626576384a07e4fde485229a106383"
 
 [versions]
 fabric = "0.18.4"
