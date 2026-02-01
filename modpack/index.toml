@@ -1,6 +1,10 @@
 hash-format = "sha256"
 
 [[files]]
+file = "config/timeoutout.json"
+hash = "8e4c10a202578f86f648649f1b9baca28eebf5a15316253867e3b27a9d7a61c3"
+
+[[files]]
 file = "config/xaero/lib/client.cfg"
 hash = "43ed9dbfa5b4d6f0f3d2e8c2ced17ad298164b22c68ff11d415257a39b074336"
 
@@ -249,6 +253,11 @@ hash = "0477f41e688eb95d6106b4df2c4fd433023d0b36d1ee6aed1a4e885cb2d26716"
 metafile = true
 
 [[files]]
+file = "mods/essential-commands.pw.toml"
+hash = "4f128957cb3715a76e340e35273e9b38e474a0a3798a325f1b0a998db9d5c0c1"
+metafile = true
+
+[[files]]
 file = "mods/fabric-api.pw.toml"
 hash = "49884f2d7db0e731facf0aa70cf2038dd513624c450cba773a8ca7a47e53953b"
 metafile = true
@@ -296,6 +305,11 @@ metafile = true
 [[files]]
 file = "mods/invmove.pw.toml"
 hash = "44f1fbc496fb2d54467ccbe0df5362c54542193e33b8541ad75b532e1baf775e"
+metafile = true
+
+[[files]]
+file = "mods/invview.pw.toml"
+hash = "515b020926d1fd0b6d1a32d106a376ba2c77bc5587bed99cecbc2d944ad18a99"
 metafile = true
 
 [[files]]
@@ -389,6 +403,11 @@ hash = "27f2a11921312246d216d0c0c021f9c2602e5a06fb17ba6f8c12ee8542d8826a"
 metafile = true
 
 [[files]]
+file = "mods/skinrestorer.pw.toml"
+hash = "4edb064b4556fc614f9b921099b94e07ec10ce7bf2e5ea5ddad566acc32223ec"
+metafile = true
+
+[[files]]
 file = "mods/sophisticated-core-(unofficial-fabric-port).pw.toml"
 hash = "693fdc79c18086a2a939b45de97ca918d895d5a4247d2a0bba94bf53661bc705"
 metafile = true
@@ -396,6 +415,11 @@ metafile = true
 [[files]]
 file = "mods/sophisticated-storage-(unofficial-fabric-port).pw.toml"
 hash = "f2feec4a404ea1ebff1cbc8ef801d074fc8c4a528af064fd9c125f5c9e57c824"
+metafile = true
+
+[[files]]
+file = "mods/timeoutout.pw.toml"
+hash = "8eb676c3f60e847715828e28ac1dc41ee85df4dcffcad95047e8044febe18f93"
 metafile = true
 
 [[files]]
@@ -443,8 +467,8 @@ hash = "694074175ac1f279e308d0dd927940c454fcd2aaf7fd92fa7eb24ac3475e7a8b"
 metafile = true
 
 [[files]]
-file = "resourcepacks/xaeroscobblemon.pw.toml"
-hash = "8d00514cbd63c8a83fe13119bf36776e30a195de5c47205ea664e57ce1351110"
+file = "resourcepacks/e19_cobblemon_minimap_icons.pw.toml"
+hash = "589adc61f7014b0c452a4b7c0c2fd790468692202d6197bf04337f70a49b2d04"
 metafile = true
 
 [[files]]
