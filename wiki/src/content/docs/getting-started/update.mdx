@@ -3,13 +3,18 @@ title: ¿Cómo actualizar el modpack?
 description: Una guía rápida sobre cómo actualizar el modpack y mantenerlo al día.
 ---
 
+import { LinkButton } from '@astrojs/starlight/components';
+import { PUBLIC_GITHUB_RELEASE_URL } from 'astro:env/client';
+
 En esta página explicamos cómo actualizar el modpack para asegurarte de que tienes la última versión asegurando la compatibilidad con el servidor y accediendo a las últimas características y correcciones.
 
 ## Descarga de la última versión del modpack
 
 Primero, necesitas descargar la última versión del modpack desde nuestro repositorio en GitHub:
 
-<a href="https://github.com/albercl/cobblemon-conquest/releases/latest" target="_blank" rel="noopener noreferrer">Descargar la última versión del modpack desde GitHub</a>
+<LinkButton href={PUBLIC_GITHUB_RELEASE_URL} target="_blank" rel="noopener noreferrer" variant="secondary" icon="external" iconPlacement="start">
+  Descargar el modpack (GitHub)
+</LinkButton>
 
 ## Actualización del modpack en el launcher
 
