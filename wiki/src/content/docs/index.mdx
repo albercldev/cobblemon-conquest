@@ -8,23 +8,24 @@ hero:
     ¡Servidor de Cobblemon en español con clanes, eventos y mucho más! Somos un grupo de amigos apasionados por Cobblemon y Minecraft, queremos aportar una nueva visión al juego, trayendo conceptos de RPG y supervivencia, fomentando la colaboración y competencia entre jugadores.
   image:
     file: ../../assets/logo.webp
-  actions:
-    - text: Cómo jugar
-      link: /getting-started/installation
-      icon: right-arrow
-    - text: ¡Únete a la comunidad en Discord!
-      link: https://discord.gg/vWkjZPYGpK
-      icon: discord
-      variant: secondary
 ---
+import { Card, CardGrid, LinkButton } from '@astrojs/starlight/components';
+import { PUBLIC_GITHUB_REPO, PUBLIC_DISCORD_LINK } from 'astro:env/client';
 
-import { Card, CardGrid } from '@astrojs/starlight/components';
+
+<LinkButton href='/getting-started/installation' variant="primary" size="large" class="mb-6" icon="right-arrow">
+	Cómo jugar
+</LinkButton>
+
+<LinkButton href={PUBLIC_DISCORD_LINK} target="_blank" rel="noopener noreferrer" variant="secondary" size="large" class="mb-6" icon="discord">
+	Únete a nuestro Discord
+</LinkButton>
 
 ## ¡Bienvenido a Cobblemon Conquest!
 
 <CardGrid stagger>
 	<Card title="Únete a nuestro Discord" icon="discord">
-		Únete a nuestra comunidad en [Discord](https://discord.gg/vWkjZPYGpK).
+		Únete a nuestra comunidad en <a href={PUBLIC_DISCORD_LINK} target="_blank" rel="noopener noreferrer">Discord</a>
 	</Card>
 	<Card title="Instala el modpack" icon="cloud-download">
 		Sigue la guía de [instalación del modpack](/getting-started/installation)
@@ -39,7 +40,7 @@ import { Card, CardGrid } from '@astrojs/starlight/components';
 		para resolver tus dudas.
 	</Card>
 	<Card title="¿Quieres aportar?" icon="github">
-		Visita nuestro [repositorio en GitHub](https://github.com/your-repo-link) y
+		Visita nuestro <a href={PUBLIC_GITHUB_REPO} target="_blank" rel="noopener noreferrer">repositorio en GitHub</a> y
 		contribuye al proyecto.
 	</Card>
 </CardGrid>

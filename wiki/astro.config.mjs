@@ -1,10 +1,22 @@
 // @ts-check
-import { defineConfig } from 'astro/config';
+import { defineConfig, envField } from 'astro/config';
 import starlight from '@astrojs/starlight';
+import { loadEnv } from "vite";
+
+const env = loadEnv(process.env.PUBLIC_GITHUB_REPO || '', process.cwd(), "");
+const { PUBLIC_GITHUB_REPO, PUBLIC_DISCORD_LINK } = env;
 
 // https://astro.build/config
 export default defineConfig({
 	site: 'https://cobblemon-conquest.albercl.dev/',
+	env: {
+		schema: {
+			PUBLIC_DISCORD_LINK: envField.string({ context: 'client', access: 'public' }),
+			PUBLIC_GITHUB_REPO: envField.string({ context: 'client', access: 'public' }),
+			PUBLIC_RELEASE_VERSION: envField.string({ context: 'client', access: 'public' }),
+			PUBLIC_GITHUB_RELEASE_URL: envField.string({ context: 'client', access: 'public', default: PUBLIC_GITHUB_REPO + '/releases/tag/' + env.PUBLIC_RELEASE_VERSION }),
+		}
+	},
 	integrations: [
 		starlight({
 			title: 'Cobblemon Conquest',
@@ -21,9 +33,8 @@ export default defineConfig({
 				},
 			},
 			social: [
-				{ icon: 'github', label: 'GitHub', href: 'https://github.com/albercl/cobblemon-conquest' },
-				{ icon: 'discord', label: 'Discord', href: 'https://discord.gg/vWkjZPYGpK' },
-			
+				{ icon: 'github', label: 'GitHub', href: PUBLIC_GITHUB_REPO },
+				{ icon: 'discord', label: 'Discord', href: PUBLIC_DISCORD_LINK },
 			],
 			sidebar: [
 				{

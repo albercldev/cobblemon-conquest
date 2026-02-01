@@ -3,7 +3,7 @@ title: Preguntas frecuentes
 description: Respuestas a las preguntas más comunes sobre Cobblemon Conquest y el modpack.
 ---
 
-En esta sección encontrarás respuestas a las preguntas más frecuentes sobre Cobblemon Conquest y el modpack. Si no encuentras la respuesta que buscas, no dudes en unirte a nuestro [Discord](https://discord.gg/vWkjZPYGpK) y preguntar en el canal de soporte.
+En esta sección encontrarás respuestas a las preguntas más frecuentes sobre Cobblemon Conquest y el modpack. Si no encuentras la respuesta que buscas, no dudes en unirte a nuestro [Discord]({import.meta.env.DISCORD_INVITATION_LINK}) y preguntar en el canal de soporte.
 
 ## ¿Cómo instalar el modpack?
 
@@ -15,7 +15,7 @@ Consulta nuestra guía de [actualización del modpack](/getting-started/update) 
 
 ## ¿Dónde puedo reportar bugs o sugerir mejoras?
 
-Puedes reportar bugs o sugerir mejoras en nuestro Discord, en el canal de soporte o en el canal de sugerencias. También puedes abrir un issue en nuestro [repositorio de GitHub](https://github.com/albercl/cobblemon-conquest).
+Puedes reportar bugs o sugerir mejoras en nuestro Discord, en el canal de soporte o en el canal de sugerencias. También puedes abrir un issue en nuestro [repositorio de GitHub]({import.meta.env.GITHUB_REPO_LINK}).
 
 ## Me va lento el juego, ¿qué puedo hacer?
 
