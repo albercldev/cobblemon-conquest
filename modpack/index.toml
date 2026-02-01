@@ -42,7 +42,7 @@ hash = "22dd7f25bd75f24f54080249a7ecb52668fa62af4733a788d2ec747c7474a9d0"
 
 [[files]]
 file = "config/xaero/minimap/profiles/entity_radar_categories/default.cfg.json"
-hash = "f87e464a04026f7a02c54a48dd0aed077b7a25d9c25bb8b19061418b48b91ef7"
+hash = "98ea0cb29739df8163c7b8fd30fa0353c44ed2602a3e24cce4d76ed3e0574417"
 
 [[files]]
 file = "config/xaero/minimap/profiles/info_display_config/default.cfg.txt"
@@ -348,11 +348,6 @@ hash = "4d60813e8db9261205387f5c8cb96d0b372d3bbe78159369abbddab24f4b8788"
 metafile = true
 
 [[files]]
-file = "mods/offlineskins-fabric.pw.toml"
-hash = "2740c09e403f00c225884d6a4de97e717408f0de1b432e66f80fb6fb5e93cd98"
-metafile = true
-
-[[files]]
 file = "mods/owo-lib.pw.toml"
 hash = "60a3d23eb73106ecb6ba5a391d4539e3557cbd9b1f3611a2de08052155d78b3a"
 metafile = true
@@ -459,7 +454,7 @@ metafile = true
 
 [[files]]
 file = "options.txt"
-hash = "7503d00ec81285c4529e258982f8f6248b9caadef109cfb7931a08f1da6c95c6"
+hash = "a5cfc0c723f5d55957e9c8773bd8b1354a447c6ca77ec0f3f2aa03f4873147b8"
 
 [[files]]
 file = "resourcepacks/allthemons-x-mega-showdown-legacy.pw.toml"
