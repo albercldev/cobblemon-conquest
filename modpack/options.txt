@@ -48,7 +48,7 @@ mouseSensitivity:0.5
 damageTiltStrength:1.0
 highContrast:false
 narratorHotkey:true
-resourcePacks:["vanilla","fabric","cobblemon:regionbiasforms","cobbreeding:pasturefix","cobblemon:gyaradosjump","file/ATM x MSD [3.2.1].zip","cobblemon:uniqueshinyforms","file/XaerosCobblemon-3.0.4_stars+1.7.0.zip","mega_showdown:gyaradosjumpingmega","mega_showdown:regionbiasmsd","$polymer-resources"]
+resourcePacks:["vanilla","fabric","cobblemon:regionbiasforms","cobbreeding:pasturefix","cobblemon:gyaradosjump","file/ATM x MSD [3.2.1].zip","cobblemon:uniqueshinyforms","mega_showdown:gyaradosjumpingmega","mega_showdown:regionbiasmsd","$polymer-resources","file/E19 Cobblemon Minimap Icons.zip"]
 incompatibleResourcePacks:["balm","jade","jei","patchouli","sereneseasons","sophisticatedcore","sophisticatedstorage","waystones","xaerolib","xaerominimap","xaeroworldmap"]
 lastServer:
 lang:en_us
