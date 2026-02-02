@@ -112,4 +112,5 @@ services:
     volumes:
       - ./data/main-server:/data:ro
       - ~/.ssh/id_ed25519:/root/.ssh/id:ro
+      - /var/run/docker.sock:/var/run/docker.sock:ro
 

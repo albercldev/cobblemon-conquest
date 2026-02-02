@@ -8,7 +8,7 @@ ENV SSH_PATH ""
 VOLUME [ "/data" ]
 VOLUME [ "/root/.ssh/id" ]
 
-RUN apk add --no-cache tar pigz curl openssh-client rsync pv
+RUN apk add --no-cache tar pigz curl openssh-client rsync pv docker-cli
 
 RUN wget https://github.com/gorcon/rcon-cli/releases/download/v0.10.3/rcon-0.10.3-amd64_linux.tar.gz \
     && tar -xzf rcon-0.10.3-amd64_linux.tar.gz \
