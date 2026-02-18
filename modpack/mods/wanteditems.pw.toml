@@ -1,13 +1,13 @@
 name = "WantedItems"
-filename = "wanteditems-1.1.8+1.7.2.jar"
+filename = "wanteditems-1.1.9+1.7.3.jar"
 side = "both"
 
 [download]
-url = "https://cdn.modrinth.com/data/EfXlyDWr/versions/q28CH2mj/wanteditems-1.1.8%2B1.7.2.jar"
+url = "https://cdn.modrinth.com/data/EfXlyDWr/versions/pbif1jcd/wanteditems-1.1.9%2B1.7.3.jar"
 hash-format = "sha512"
-hash = "adf36e011dc47062bd5549bba7bed7b82131682c3596ed438557a306ee6daffd75b21d5757bb508753dfd948fbf48709ce56535cd9abf3954e7209768bc5ca2f"
+hash = "782eabf6ee43daa584befaddd6d07f5cb05ead720df9f7604b9d05919b49655c1e91593acea13eaa4d44c5a59aa4fed9665c932eb9776305c0472ba32892c319"
 
 [update]
 [update.modrinth]
 mod-id = "EfXlyDWr"
-version = "q28CH2mj"
+version = "pbif1jcd"

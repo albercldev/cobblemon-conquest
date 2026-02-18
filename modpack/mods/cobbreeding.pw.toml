@@ -1,13 +1,13 @@
 name = "Cobbreeding"
-filename = "Cobbreeding-fabric-2.1.1.jar"
+filename = "Cobbreeding-fabric-2.2.1.jar"
 side = "both"
 
 [download]
-url = "https://cdn.modrinth.com/data/ItmVb4zY/versions/txiMM5yA/Cobbreeding-fabric-2.1.1.jar"
+url = "https://cdn.modrinth.com/data/ItmVb4zY/versions/MvTDHePw/Cobbreeding-fabric-2.2.1.jar"
 hash-format = "sha512"
-hash = "10dcac2cc364ff723659d0893da72b69a5dc1c0e1437cd6d79309b7021ef989546d81cc38fd224e3511fb483d96070178a635868cbfe807995360741a1110ff2"
+hash = "3c3197550b75a5106d35a3a87510389c0aca51b74546015c7e0e98b75031ac1d76e61e934b1955fe5bb2e074ff2d2ed5ddf97354f8f09abfd4344c9d77da7f5b"
 
 [update]
 [update.modrinth]
 mod-id = "ItmVb4zY"
-version = "txiMM5yA"
+version = "MvTDHePw"
