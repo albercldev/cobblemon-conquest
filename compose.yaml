@@ -32,6 +32,8 @@ services:
 
       INIT_MEMORY: 4G
       MAX_MEMORY: 12G
+
+      ENABLE_WHITELIST: "true"
     
     ports:
       - "24454:24454/udp"
