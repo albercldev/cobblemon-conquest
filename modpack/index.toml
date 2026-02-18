@@ -277,6 +277,11 @@ hash = "0477f41e688eb95d6106b4df2c4fd433023d0b36d1ee6aed1a4e885cb2d26716"
 metafile = true
 
 [[files]]
+file = "mods/easywhitelist.pw.toml"
+hash = "73676c3479246a54890fc2f4518470593f97cbc57525839626738a5efce06b4f"
+metafile = true
+
+[[files]]
 file = "mods/essential-commands.pw.toml"
 hash = "4f128957cb3715a76e340e35273e9b38e474a0a3798a325f1b0a998db9d5c0c1"
 metafile = true
