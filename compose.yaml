@@ -109,7 +109,7 @@ services:
 
       SSH_USER: albercl
       SSH_HOST: nas.albercl.dev
-      SSH_PATH: ~/backups/cobblemon-conquest
+      SSH_PATH: ~/backups/minecraft/cobblemon-conquest
 
     volumes:
       - ./data/main-server:/data:ro
