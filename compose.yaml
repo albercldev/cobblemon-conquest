@@ -3,6 +3,7 @@ services:
     image: itzg/minecraft-server:java21
     container_name: cobblemon-conquest-main-server
     pull_policy: daily
+    restart: unless-stopped
     tty: true
     stdin_open: true
     environment:
@@ -49,11 +50,13 @@ services:
   limbo:
     image: ghcr.io/quozul/picolimbo:latest
     container_name: cobblemon-conquest-limbo
+    restart: unless-stopped
 
   proxy:
     image: itzg/mc-proxy:latest
     container_name: cobblemon-conquest-proxy
     pull_policy: daily
+    restart: unless-stopped
     tty: true
     stdin_open: true
     environment:
@@ -79,6 +82,7 @@ services:
     image: postgres:18.1
     container_name: cobblemon-conquest-database
     pull_policy: daily
+    restart: unless-stopped
     environment:
       POSTGRES_DB: cobblemon_conquest
       POSTGRES_USER: admin
