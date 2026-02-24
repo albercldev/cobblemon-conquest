@@ -555,6 +555,10 @@ hash = "224356816f38b00457a54268435fc051f03b8f649cf9df099c676e5641f9b57f"
 metafile = true
 
 [[files]]
+file = "scripts/disable-legendary-objects.zs"
+hash = "92db788d348ed828e68bf117151ff8bee4b87549cae3143e52c1af7f5460c554"
+
+[[files]]
 file = "scripts/disable-shulker-boxes.zs"
 hash = "7fc02f56ef0330b50e58f03b1ea044abee53706aed2d3c50f3d1ede76bd0c4bd"
 
