@@ -6,7 +6,7 @@ hash = "5eb6c6ea5082278b578548cfc19bec62fcda4b42f312d20c27e36a2f092979c5"
 
 [[files]]
 file = "config/luckperms/luckperms.conf"
-hash = "ca323a0d675f14af526db77de85461428c984823f80aeefe30be1a97766659c4"
+hash = "dbda616bf6b1b4f4165c19827032fb0c42ecebb9c13e6cd9d34351450a9c2c87"
 
 [[files]]
 file = "config/spawn_notification.json"
