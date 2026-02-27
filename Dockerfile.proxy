@@ -1,0 +1,3 @@
+FROM itzg/mc-proxy:latest
+
+COPY ./proxy /config
